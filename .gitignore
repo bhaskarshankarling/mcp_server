@@ -30,3 +30,41 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Build artifacts
+bin/
+dist/
+*.exe
+
+# Go build cache
+.cache/
+
+# Test coverage files
+coverage.out
+coverage.html
+*.prof
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Documentation generated files
+docs.txt
+
+# Temporary files
+tmp/
+temp/
