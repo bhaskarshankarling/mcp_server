@@ -115,7 +115,7 @@ Implement end-to-end integration tests for the main.go file located in the cmd/s
 ### 7. Extend the MCP to integrate project API  - [15 min]
 #### Task description
 - In this task we will be adding one more MCP tool called `get_projects`. On invoking that tool from Copilot it should hit the `GET api/v2/projects?filterable=true` API and get the list of projects and display the response in the Copilot chat window.
-- You can use the root URL as `https://naveen.vikings.bangthetable.in/` for now.
+- You can use the root URL as `https://deepademo.staging.bangthetable.in/` for now.
 - You also need to implement necessary token generation logic before hitting the above project API. Which is
   - Hit the `POST api/v2/tokens` API
   - With the request body
